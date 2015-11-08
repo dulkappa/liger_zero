@@ -1,0 +1,28 @@
+{
+  "name": "liger_zero",
+  "version": "0.0.1",
+  "description": "minimal web app templates for riot.js using jade and coffeescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dulkappa/liger_zero.git"
+  },
+  "author": "dulkappa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dulkappa/liger_zero/issues"
+  },
+  "homepage": "https://github.com/dulkappa/liger_zero#readme",
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-webserver": "^0.9.1",
+    "riotify": "^0.1.2",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
