@@ -26,7 +26,7 @@ gulp.task 'browserify', ->
   .pipe gulp.dest 'dist/js/'
   return
 
-gulp.task 'server', ->
+gulp.task 'server', ['jade', 'browserify'], ->
   gulp
   .src 'dist'
   .pipe webserver
