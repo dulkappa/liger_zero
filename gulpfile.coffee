@@ -20,6 +20,7 @@ gulp.task 'browserify', ->
       'src/js/components.js'
     ]
   .transform riotify,
+    'type': 'coffeescript'
     'template': 'jade'
   .bundle()
   .pipe gulp.dest 'dist/js/'
